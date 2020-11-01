@@ -1,0 +1,145 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bg-main{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/Katarina_1880x990_01-4699.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.nav-link{
+    color: #E7E7E5 !important;
+}
+
+.nav-link:hover{
+    color: #f9fafa !important;
+}
+
+.header__title{
+    font-size: 70px;
+    color: #E7E7E5;
+}
+
+.content-text{
+    font-size: 13px !important;
+}
+
+.big-img{
+    height: 27rem;
+    width: 38rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small-img_left{
+    height: 15.85rem;
+    width: 24.6rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    right: 40%;
+}
+
+.book__button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.small-img_right{
+    height: 15.85rem;
+    width: 24.6rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    left: 37%;
+}
+
+.title__footer{
+    color: #E7E7E5 !important;
+    font-size: 15px !important;
+}
+
+.content-text__footer{
+    color: #E7E7E5 !important;
+    font-size: 13px !important;
+}
+
+@media (max-width: 995px){
+
+    .small-img_left{
+        top: 77%;
+        right: 35%;
+    }
+
+    .small-img_right{
+        top: 77%;
+        left: 35%;
+    }
+}
+
+
+@media (max-width: 768px){
+    .header__title{
+        font-size: 54px;
+    }
+
+    .big-img{
+        height: 22rem;
+        width: 30rem;
+    }
+    
+    .small-img_left{
+        height: 13rem;
+        width: 20rem;    
+        right: 40%;
+    }
+
+    .small-img_right{
+        height: 13rem;
+        width: 20rem;
+        left: 40%;
+    }
+
+    .rooms-section{
+        margin-top: 150px !important;
+    }
+
+    .gallery-section{
+        margin-top: 150px !important;
+    }
+
+    .content-text__footer{
+        margin-bottom: 5px;
+    }
+    
+}
+
+@media (max-width: 575px){
+    .book__button{
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 500px){
+
+    .big-img{
+        height: 18rem;
+        width: 25rem;
+    }
+
+    .small-img_left{
+    right: 25%;
+    }
+
+    .small-img_right{
+        left: 25%;
+    }
+}
