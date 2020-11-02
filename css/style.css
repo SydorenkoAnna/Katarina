@@ -4,10 +4,10 @@ body{
 
 #bg-main{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background: url(../img/Katarina_1880x990_01-4699.jpg);
     background-size: cover;
-    position: relative;
+    background-repeat: no-repeat;
 }
 
 .nav-link{
@@ -21,6 +21,7 @@ body{
 .header__title{
     font-size: 70px;
     color: #E7E7E5;
+    padding-top: 8%;
 }
 
 .content-text{
@@ -89,6 +90,7 @@ body{
 @media (max-width: 768px){
     .header__title{
         font-size: 54px;
+        padding-top: 10%;
     }
 
     .big-img{
@@ -99,13 +101,11 @@ body{
     .small-img_left{
         height: 13rem;
         width: 20rem;    
-        right: 40%;
     }
 
     .small-img_right{
         height: 13rem;
         width: 20rem;
-        left: 40%;
     }
 
     .rooms-section{
@@ -123,6 +123,12 @@ body{
 }
 
 @media (max-width: 575px){
+
+    .header__title{
+        font-size: 54px;
+        padding-top: 15%;
+    }
+
     .book__button{
         justify-content: flex-start;
     }
@@ -142,4 +148,44 @@ body{
     .small-img_right{
         left: 25%;
     }
+}
+
+@media (max-width: 427px){
+
+    .big-img{
+        height: 14rem;
+        width: 20rem;
+    }
+
+    .small-img_left{
+        height: 10rem;
+        width: 17rem;    
+        right: 17%;
+    }
+
+    .small-img_right{
+        height: 10rem;
+        width: 17rem;
+        left: 17%;
+}
+
+@media (max-width: 330px){
+
+    .big-img{
+        height: 12rem;
+        width: 18rem;
+    }
+
+    .small-img_left{
+        height: 10rem;
+        width: 15rem;    
+        right: 17%;
+        top: 70%;
+    }
+
+    .small-img_right{
+        height: 10rem;
+        width: 15rem;
+        left: 17%;
+        top: 70%;
 }
