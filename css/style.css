@@ -129,12 +129,16 @@ body{
     
     .small-img_left{
         height: 13rem;
-        width: 20rem;    
+        width: 20rem;  
+        top: 90%;
+        right: 41%;  
     }
 
     .small-img_right{
         height: 13rem;
         width: 20rem;
+        top: 90%;
+        left: 41%;
     }
 
     .rooms-section{
@@ -147,12 +151,12 @@ body{
       
     .grey-section{
         padding-top: 0px;
-        padding-bottom: 130px;
+        padding-bottom: 240px;
     }
 
     .white-section{
         padding-top: 0px;
-        padding-bottom: 130px;
+        padding-bottom: 240px;
     }
 
     .content-text__footer{
@@ -188,13 +192,6 @@ body{
         left: 25%;
     }
 
-    .grey-section{
-        padding-bottom: 160px;
-    }
-
-    .white-section{
-        padding-bottom: 160px;
-    }
 }
 
 @media (max-width: 427px){
@@ -217,11 +214,11 @@ body{
     }
 
     .grey-section{
-        padding-bottom: 140px;
+        padding-bottom: 210px;
     }
 
     .white-section{
-        padding-bottom: 140px;
+        padding-bottom: 210px;
     }
 
 }
