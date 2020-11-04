@@ -28,6 +28,16 @@ body{
     font-size: 13px !important;
 }
 
+.grey-section{
+    padding-top: 100px;
+    padding-bottom: 240px;
+}
+
+.white-section{
+    padding-top: 100px;
+    padding-bottom: 240px;
+}
+
 .big-img{
     height: 27rem;
     width: 38rem;
@@ -73,16 +83,35 @@ body{
     font-size: 13px !important;
 }
 
-@media (max-width: 992px){
+@media (max-width: 991px){
+
+    .big-img{
+        height: 22rem;
+        width: 38rem;
+    }
 
     .small-img_left{
-        top: 77%;
-        right: 35%;
+        height: 12rem;
+        width: 18rem;
+        top: 60%;
+        right: 41%;
     }
 
     .small-img_right{
-        top: 77%;
-        left: 35%;
+        height: 12rem;
+        width: 18rem;
+        top: 60%;
+        left: 41%;
+    }
+
+    .grey-section{
+        padding-bottom: 75px;
+        padding-top: 75px;
+    }
+
+    .white-section{
+        padding-bottom: 75px;
+        padding-top: 75px;
     }
 }
 
@@ -117,11 +146,13 @@ body{
     }
       
     .grey-section{
-        padding-bottom: 95px;
+        padding-top: 0px;
+        padding-bottom: 130px;
     }
 
     .white-section{
-        padding-bottom: 40px;
+        padding-top: 0px;
+        padding-bottom: 130px;
     }
 
     .content-text__footer{
@@ -139,11 +170,7 @@ body{
 
     .book__button{
         justify-content: flex-start;
-    }
-       
-    .grey-section{
-        padding-bottom: 95px;
-    }
+    }    
 }
 
 @media (max-width: 500px){
@@ -159,6 +186,14 @@ body{
 
     .small-img_right{
         left: 25%;
+    }
+
+    .grey-section{
+        padding-bottom: 160px;
+    }
+
+    .white-section{
+        padding-bottom: 160px;
     }
 }
 
@@ -180,14 +215,15 @@ body{
         width: 17rem;
         left: 17%;
     }
-    
+
     .grey-section{
-        padding-bottom: 65px;
+        padding-bottom: 140px;
     }
 
     .white-section{
-        padding-bottom: 20px;
+        padding-bottom: 140px;
     }
+
 }
 
 @media (max-width: 330px){
@@ -209,5 +245,13 @@ body{
         width: 15rem;
         left: 17%;
         top: 70%;
+    }
+
+    .grey-section{
+        padding-bottom: 160px;
+    }
+
+    .white-section{
+        padding-bottom: 160px;
     }
 }
