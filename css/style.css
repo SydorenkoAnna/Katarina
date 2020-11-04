@@ -28,6 +28,11 @@ body{
     font-size: 13px !important;
 }
 
+.hotel-section{
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+
 .grey-section{
     padding-top: 100px;
     padding-bottom: 240px;
@@ -104,6 +109,11 @@ body{
         left: 41%;
     }
 
+    .hotel-section{
+        padding-top: 60px;
+        padding-bottom: 120px;
+    }
+
     .grey-section{
         padding-bottom: 75px;
         padding-top: 75px;
@@ -147,6 +157,11 @@ body{
 
     .gallery-section{
         margin-top: 150px !important;
+    }
+
+    .hotel-section{
+        padding-top: 0;
+        padding-bottom: 90px;
     }
       
     .grey-section{
@@ -213,6 +228,10 @@ body{
         left: 17%;
     }
 
+    .hotel-section{
+        padding-bottom: 55px;
+    }
+
     .grey-section{
         padding-bottom: 210px;
     }
@@ -242,6 +261,10 @@ body{
         width: 15rem;
         left: 17%;
         top: 70%;
+    }
+
+    .hotel-section{
+        padding-bottom: 20px;
     }
 
     .grey-section{
