@@ -43,6 +43,10 @@ body{
     padding-bottom: 240px;
 }
 
+.content-block{
+    min-height: 17rem;
+}
+
 .big-img{
     height: 27rem;
     width: 38rem;
@@ -131,6 +135,10 @@ body{
         padding-bottom: 75px;
         padding-top: 75px;
     }
+
+    .content-block{
+        min-height: 15rem;
+    }
 }
 
 
@@ -188,6 +196,10 @@ body{
 
     .content-text__footer{
         margin-bottom: 5px;
+    }
+
+    .content-block{
+        min-height: auto;
     }
     
 }
