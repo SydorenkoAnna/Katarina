@@ -35,12 +35,12 @@ body{
 
 .grey-section{
     padding-top: 100px;
-    padding-bottom: 240px;
+    padding-bottom: 210px;
 }
 
 .white-section{
     padding-top: 100px;
-    padding-bottom: 240px;
+    padding-bottom: 210px;
 }
 
 .content-block{
@@ -64,6 +64,14 @@ body{
     position: absolute;
     top: 75%;
     right: 40%;
+}
+
+.rooms__img{
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .book__button{
@@ -114,6 +122,10 @@ body{
         right: 41%;
     }
 
+    .rooms__img{
+        height: 400px;
+    }
+
     .small-img_right{
         height: 12rem;
         width: 18rem;
@@ -127,12 +139,12 @@ body{
     }
 
     .grey-section{
-        padding-bottom: 75px;
+        padding-bottom: 50px;
         padding-top: 75px;
     }
 
     .white-section{
-        padding-bottom: 75px;
+        padding-bottom: 50px;
         padding-top: 75px;
     }
 
@@ -158,6 +170,10 @@ body{
         width: 20rem;  
         top: 90%;
         right: 41%;  
+    }
+
+    .rooms__img{
+        height: 300px;
     }
 
     .small-img_right{
@@ -220,6 +236,12 @@ body{
     }
 }
 
+@media (max-width: 540px){
+    .small-img_right{
+        left: 35%;
+    }
+}
+
 @media (max-width: 500px){
 
     .big-img{
@@ -229,6 +251,10 @@ body{
 
     .small-img_left{
     right: 25%;
+    }
+
+    .rooms__img{
+        height: 200px;
     }
 
     .small-img_right{
@@ -269,11 +295,11 @@ body{
     }
 
     .grey-section{
-        padding-bottom: 210px;
+        padding-bottom: 200px;
     }
 
     .white-section{
-        padding-bottom: 210px;
+        padding-bottom: 200px;
     }
 
 }
@@ -289,25 +315,22 @@ body{
         height: 10rem;
         width: 15rem;    
         right: 17%;
-        top: 70%;
+        top: 90%;
+    }
+
+    .rooms__img{
+        height: 170px;
     }
 
     .small-img_right{
         height: 10rem;
         width: 15rem;
         left: 17%;
-        top: 70%;
+        top: 90%;
     }
 
     .hotel-section{
-        padding-bottom: 20px;
+        padding-bottom: 60px;
     }
 
-    .grey-section{
-        padding-bottom: 160px;
-    }
-
-    .white-section{
-        padding-bottom: 160px;
-    }
 }
